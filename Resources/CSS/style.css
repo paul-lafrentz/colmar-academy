@@ -1,0 +1,48 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+  height: 64px;
+}
+
+#header {
+  height: 32px;
+  padding-left: 5px;
+  text-transform: uppercase;
+  padding: auto;
+}
+
+header span {
+  font-weight: bold;
+}
+
+header img {
+  margin-left: 24px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  margin-right: 24px;
+}
+
+nav p {
+  display: inline-block;
+  padding: 0px 8px;
+}
+
+#learn {
+  background: Gainsboro;
+}
+
+#learn img {
+  width: 60%;
+}
