@@ -6,6 +6,7 @@ body {
 
 .flex-container {
   display: flex;
+  flex-wrap: nowrap;
 }
 
 header {
@@ -16,7 +17,7 @@ header {
   height: 32px;
   padding-left: 5px;
   text-transform: uppercase;
-  margin-top: 21px;
+  flex-grow: 0;
 }
 
 header span {
@@ -30,13 +31,17 @@ header img {
 nav {
   text-align: right;
   flex-grow: 1;
+  width: 400px;
+}
+
+nav ul {
+  list-style: none;
   margin-right: 24px;
 }
 
-nav p {
+nav li {
   display: inline-block;
   padding: 0px 8px;
-  margin-top: 21px;
 }
 
 #learn {
@@ -84,10 +89,18 @@ h2 {
   flex-wrap: nowrap;
 }
 
-
 .image {
   width: 60%;
   padding: 32px 24px;
+}
+
+.image h2 {
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.image p {
+  line-height: 22px;
 }
 
 #information {
@@ -96,24 +109,42 @@ h2 {
 
 #aside {
   flex-direction: column;
-  justify-content: center;
   flex-wrap: nowrap;
   width: 40%;
   border-left: 1px solid Gainsboro;
 }
 
-#aside-1 {
-  border-bottom: 1px solid rgb(248, 248, 255);
+#container {
+  border-bottom: 1px solid Gainsboro;
 }
 
-#aside-1 img {
-  padding: 12px;
+#container img {
+  padding: 16px;
   width: 35%;
   height: auto;
   float: left;
   vertical-align: middle;
 }
 
-#aside-1 h4,p,span{
+#container h4,p,span{
   width: 100%;
+}
+
+#container h4 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+#container p {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+a {
+  color: DodgerBlue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: DarkBlue;
 }
