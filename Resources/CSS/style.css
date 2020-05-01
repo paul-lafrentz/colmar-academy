@@ -159,6 +159,7 @@ a:hover {
   flex-wrap: wrap;
   padding: 0 72px;
   justify-content: center;
+  overflow: hidden;
 }
 
 .course-container {
