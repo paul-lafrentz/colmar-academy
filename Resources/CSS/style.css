@@ -6,7 +6,6 @@ body {
 
 .flex-container {
   display: flex;
-  flex-wrap: nowrap;
 }
 
 header {
@@ -90,7 +89,7 @@ h2 {
 }
 
 .image {
-  width: 60%;
+  width: 66%;
   padding: 32px 24px;
 }
 
@@ -110,7 +109,6 @@ h2 {
 #aside {
   flex-direction: column;
   flex-wrap: nowrap;
-  width: 40%;
   border-left: 1px solid Gainsboro;
 }
 
@@ -127,7 +125,7 @@ h2 {
 }
 
 #container h4,p,span{
-  width: 100%;
+  width: 120%;
 }
 
 #container h4 {
@@ -147,4 +145,118 @@ a {
 
 a:hover {
   color: DarkBlue;
+}
+
+#course-title {
+  background-color: rgb(230, 230, 230);
+  text-align: center;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+#courses {
+  background: rgb(230, 230, 230);
+  flex-wrap: wrap;
+  padding: 0 72px;
+  justify-content: center;
+}
+
+.course-container {
+  width: 400px;
+  background: GhostWhite;
+  margin: 16px 16px;
+}
+
+.course-container img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.course-container h3, span, p {
+  padding-left: 16px;
+}
+
+.course-container h3 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.course-container span {
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.course-container p {
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+#thesis-title {
+  background: GhostWhite;
+  text-align: center;
+  margin: 0 auto;
+  padding: 32px 0;
+}
+
+#thesis {
+  background: GhostWhite;
+}
+
+.video {
+  width: 66%;
+  padding: 0px 24px 24px 24px;
+}
+
+video {
+  width: 100%;
+}
+
+#thesis-aside {
+  flex-direction: column;
+}
+
+#thesis-container {
+  width: 100%;
+}
+
+#thesis-container img {
+  padding: 16px;
+  width: 35%;
+  height: auto;
+  float: left;
+  vertical-align: middle;
+}
+
+#thesis-container h4,p,{
+  width: 100%;
+}
+
+#thesis-container h4 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+#thesis-container p {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+footer {
+  background-color: Gainsboro;
+  border-top: 1px solid grey;
+  display: inline-block;
+  width: 100%;
+}
+
+footer span {
+  float: left;
+  padding-left: 24px;
+  padding-top: 16px;
+}
+
+footer p {
+  float: right;
 }
